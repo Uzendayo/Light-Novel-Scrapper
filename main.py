@@ -1,13 +1,9 @@
 import click
 import requests
 import json
-import tomd
+# import tomd Soon™
 import sys
 from bs4 import BeautifulSoup
-
-d = 'clear ; python3 main.py novel -d https://www.readlightnovel.org/the-world-of-otome-games-is-tough-for-mobs'
-l = 'clear ; python3 main.py novel -l https://www.readlightnovel.org/the-world-of-otome-games-is-tough-for-mobs'
-b = 'clear ; python3 main.py novel -l -d https://www.readlightnovel.org/the-world-of-otome-games-is-tough-for-mobs'
 
 
 def get_novel_links(novel):
