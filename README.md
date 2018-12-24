@@ -7,6 +7,7 @@ Might add more functionality in the future, for now it does what I want it to do
 
 ## Capabilities!
 - [x] Grab and save, on a `.json`, all the links of a Novel.
+- [x] Download and save the chapters on the `.json`.
 - [x] It's saved on a `.json`
 - [ ] Can't do much else :/
 
@@ -28,6 +29,6 @@ You will need to `pip` some stuff before running the script.
 Run `main.py novel -l -d <novel link>` to save the links and download the chapters on a json.
 
 ## Soon™
-1. Ability of using it on several Light Novel sites.
+1. Ability to use it on several Light Novel sites.
 2. Saving in *Markdown* format so it's nicer.
 3. More functionality.
